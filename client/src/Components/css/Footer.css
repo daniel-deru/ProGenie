@@ -1,0 +1,20 @@
+#footer {
+    background-color: rgb(221, 221, 221);
+    position: absolute;
+    width: 90vw;
+    right: 0;
+    z-index: 1;
+}
+
+#footer-resize{
+    background-color: rgb(221, 221, 221);
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    cursor: ns-resize;
+}
+
+#footer-resize:hover{
+    background-color: rgb(194, 194, 194);
+}

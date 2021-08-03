@@ -1,0 +1,18 @@
+#sidebar {
+    background-color: var(--grey-dark);
+    opacity: 0.999999999999999999999999;
+    z-index: 2;
+}
+
+#sidebar-resize {
+    width: 5px;
+    height: 90vh;
+    background-color: var(--grey-dark);
+    margin-left: calc(100% - 5px);
+    cursor:ew-resize;
+}
+
+#sidebar-resize:hover{
+    background-color: var(--grey-primary);
+}
+

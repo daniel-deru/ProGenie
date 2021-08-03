@@ -1,0 +1,181 @@
+:root {
+    --header-element-width: 12vw;
+    --header-height: 10vh;
+}
+
+#header {
+    display: flex;
+    background-color: var(--blue-primary);
+    justify-content: space-between;
+    padding: 0 10px;
+    color: white;
+    height: 10vh;
+}
+
+#name-pro {
+    color: var(--orange-primary);
+}
+
+#name-genie {
+    color: white;
+}
+
+#header ul {
+    position: absolute;
+    list-style-type: none;
+    color: white;
+    z-index: 3;
+}
+
+#header-right-container{
+    display: flex;
+    align-items: center;
+}
+
+#header-left-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    align-items: center;
+}
+
+#mode-container div:first-child {
+    font-size: 1.3em;
+    width: var(--header-element-width);
+    text-align: center;
+    cursor: pointer;
+}
+
+#mode-container div:first-child:hover {
+    color: var(--orange-primary);
+}
+
+#mode-container ul {
+    background-color: var(--grey-primary);
+    /* top: 0; */
+    width: var(--header-element-width);
+    border-radius: 5px;
+    text-align: center;
+}
+
+#mode-container ul li {
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+#mode-container ul li:hover {
+    color: var(--orange-primary);
+}
+
+
+#menu-container ul {
+    right: 0;
+    border-radius: 5px;
+    background-color: var(--grey-primary);
+}
+
+#menu-container ul li:hover {
+    color: var(--orange-primary);
+   
+}
+
+#menu-container ul li {
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.menu-icon {
+    cursor: pointer;
+    font-size: 2em;
+    
+}
+
+.menu-icon:hover{
+    color: var(--orange-primary);
+}
+
+
+.times {
+    font-size: 2.1em;
+}
+
+.modes-container-open {
+    opacity: 1;
+}
+
+.modes-container-closed {
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+.menu-container-open {
+    opacity: 1;
+}
+
+.menu-container-closed {
+    opacity: 0;
+}
+
+
+#header-middle-container{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    align-items: center;
+}
+
+#header-middle-container ul {
+    background-color: var(--grey-primary);
+    /* position: absolute; */
+    /* top: var(--header-height); */
+    width: var(--header-element-width);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#header-middle-container span:first-child {
+    display: block;
+
+}
+#header-middle-container span:first-child:hover {
+    color: var(--orange-primary);
+}
+
+
+#header-middle-container ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#header-middle-container ul li:hover {
+    color: var(--orange-primary);
+}
+
+#header-middle-container div div:first-child {
+    width: var(--header-element-width);
+    text-align: center;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+.difficulty-container-open {
+    opacity: 1;
+}
+
+.difficulty-container-closed{
+    opacity: 0;
+    pointer-events: none;
+}
+
+.theme-container-open {
+    opacity: 1;
+}
+
+.theme-container-closed{
+    opacity: 0;
+    pointer-events: none;
+}
+

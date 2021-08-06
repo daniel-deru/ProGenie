@@ -1,6 +1,5 @@
 #display {
-    width: 90vw;
-    height: inherit;
-    background-color: green;
-    resize: both;
+   width: 50%;
+   /* height: inherit; */
+   background-color: green;
 }

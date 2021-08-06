@@ -1,0 +1,12 @@
+#code {
+    width: 50%;
+    padding: 20px;
+    background-color: var(--grey-primary);
+}
+
+#code-container {
+    height: 100%;
+    outline: none;
+    color: white;
+    background-color: var(--grey-primary);
+}

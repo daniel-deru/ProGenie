@@ -1,6 +1,7 @@
 #main {
+    margin-top: 15vh;
     display: flex;
-    height: 90vh;
-    opacity: 0.999999999999999;
-    z-index: 0;
+    height: 75vh;
+    /* opacity: 0.999999999999999;
+    z-index: 0; */
 }

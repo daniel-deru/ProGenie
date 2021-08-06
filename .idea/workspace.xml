@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd818533-dede-4798-a458-380717ecdd78" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/css/Content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/css/Display.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/css/Display.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/css/Footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/css/Main.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/css/Main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/css/SideBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/tsx/Content.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/tsx/Display.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/tsx/Display.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/tsx/Footer.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/tsx/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/tsx/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/tsx/SideBar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1wIosOXEpw0zkZkEZ5CP7nbcYed" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd818533-dede-4798-a458-380717ecdd78" name="Default Changelist" comment="" />
+      <created>1628155678762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1628155678762</updated>
+    </task>
+    <servers />
+  </component>
+</project>

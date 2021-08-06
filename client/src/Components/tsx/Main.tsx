@@ -3,16 +3,14 @@ import { useEffect } from "react"
 import "../css/Main.css"
 
 // Import Components
-import SideBar from "./SideBar"
+import Code from "./Code"
 import Display from "./Display"
-import Footer from "./Footer"
 
 const Main = () => {
-
     return (
         <div id="main" >
-                <SideBar/>
-                <Display/>
+            <Code/>
+            <Display/>
         </div>
     )
 }

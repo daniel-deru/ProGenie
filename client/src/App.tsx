@@ -7,9 +7,7 @@ import './App.css';
 // Component imports
 import Header from "./Components/tsx/Header"
 import Main from './Components/tsx/Main';
-import SideBar from './Components/tsx/SideBar';
-import Display from './Components/tsx/Display';
-import Footer from './Components/tsx/Footer';
+import Infobar from "./Components/tsx/Infobar";
 
 function App() {
   const headerRef = useRef(null)
@@ -18,9 +16,8 @@ function App() {
   return (
     <div className="App">
       <Header/>
+      <Infobar/>
       <Main/>
-      {/* <Footer/> */}
-
     </div>
   );
 }

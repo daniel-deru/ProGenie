@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-import "../css/Footer.css"
+import "../css/Infobar.css"
 
 const Infobar = () => {
     const [infobarHeight, setInfobarHeight] = useState(15)
@@ -29,6 +29,7 @@ const Infobar = () => {
     }
     return (
         <div id="footer" style={{height: `${infobarHeight}vh`}}>
+            <button type="button" id="run-button">run</button>
             <div id="footer-resize" onMouseDown={() => resizeFooter()}></div>
         </div>
     )

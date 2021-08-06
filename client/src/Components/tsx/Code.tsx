@@ -1,5 +1,6 @@
 import React, { useRef, useLayoutEffect, useEffect } from 'react'
-
+import { useSelector } from 'react-redux'
+import { State } from "../../store/redusers/mainReduser"
 import "../css/Code.css"
 
 
@@ -9,6 +10,9 @@ const Code = () => {
     useEffect(() => {
         
     })
+
+    const signal = useSelector((state: State) => state.run_button)
+    console.log(signal)
 
     const getCode = (e) => {
         // console.log(codeRef.current.textContent)

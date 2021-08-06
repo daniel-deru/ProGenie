@@ -1,9 +1,19 @@
 import { useEffect, useState } from "react"
+import { useSelector, useDispatch } from "react-redux"
+import { bindActionCreators } from "redux"
+import { runActionCreator } from "../../store/store" 
+import { State } from "../../store/redusers/mainReduser"
 
 import "../css/Infobar.css"
 
 const Infobar = () => {
     const [infobarHeight, setInfobarHeight] = useState(15)
+    const dispatch = useDispatch()
+
+    // const code = useSelector((state: State) => state.run_button)
+    // console.log(code)
+    
+    const { runCode } = bindActionCreators(runActionCreator, dispatch)
 
     useEffect(() => {
         window.addEventListener("mouseup", () => {
@@ -29,7 +39,7 @@ const Infobar = () => {
     }
     return (
         <div id="footer" style={{height: `${infobarHeight}vh`}}>
-            <button type="button" id="run-button">run</button>
+            <button type="button" id="run-button" onClick={() => runCode("button clicked")}>run</button>
             <div id="footer-resize" onMouseDown={() => resizeFooter()}></div>
         </div>
     )
